@@ -20,6 +20,6 @@
   <div id="comments">
     <%# expands to render partial: 'comments/comment', collection: @posts.comments %>
     <%= render @post.comments %>
-
-    <%= render 'comments/new', post: @post %>
   </div>
+
+  <%= render 'comments/new', post: @post %>
